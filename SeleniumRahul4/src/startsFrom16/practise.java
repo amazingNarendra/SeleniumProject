@@ -10,6 +10,7 @@ public class practise {
 	public static void main(String[] args) {
 		Static();  // without classname
 		practise.Static();  //with classname
+		System.out.println("HI Hi");
 		
 		
 	 practise p=new practise();
