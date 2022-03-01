@@ -11,8 +11,10 @@ public class practise {
 		Static();  // without classname
 		practise.Static();  //with classname
 		
+		
 	 practise p=new practise();
 	 p.Static();// with object
+	 p.NonStatic();
 		
 	}
 
