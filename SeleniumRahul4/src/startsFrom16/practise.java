@@ -12,7 +12,7 @@ public class practise {
 		practise.Static();  //with classname
 		System.out.println("HI Hi");
 		System.out.println("develop branch");
-		
+		System.out.println("Y develop");
 		
 	 practise p=new practise();
 	 p.Static();// with object
