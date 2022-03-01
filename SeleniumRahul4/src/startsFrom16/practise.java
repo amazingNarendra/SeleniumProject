@@ -11,6 +11,7 @@ public class practise {
 		Static();  // without classname
 		practise.Static();  //with classname
 		System.out.println("HI Hi");
+		System.out.println("develop branch");
 		
 		
 	 practise p=new practise();
