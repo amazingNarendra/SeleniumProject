@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="9" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="183" started-at="2022-11-29T15:05:37 IST" finished-at="2022-11-29T15:05:38 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.Demo1()[pri:0, instance:testNGSec19.day1@5faeada1]" name="Demo1" class="testNGSec19.day1"/>
+        <method signature="day2.Web()[pri:0, instance:testNGSec19.day2@7e2d773b]" name="Web" class="testNGSec19.day2"/>
+        <method signature="day3.Demo1(java.lang.String,java.lang.String)[pri:0, instance:testNGSec19.day3@307f6b8c]" name="Demo1" class="testNGSec19.day3"/>
+        <method signature="day3.Demo2()[pri:0, instance:testNGSec19.day3@307f6b8c]" name="Demo2" class="testNGSec19.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="183" started-at="2022-11-29T15:05:37 IST" finished-at="2022-11-29T15:05:38 IST">
+      <class name="testNGSec19.day1">
+        <test-method status="PASS" signature="Demo1()[pri:0, instance:testNGSec19.day1@5faeada1]" name="Demo1" duration-ms="22" started-at="2022-11-29T15:05:38 IST" finished-at="2022-11-29T15:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- testNGSec19.day1 -->
+      <class name="testNGSec19.day2">
+        <test-method status="PASS" signature="Web()[pri:0, instance:testNGSec19.day2@7e2d773b]" name="Web" duration-ms="3" started-at="2022-11-29T15:05:38 IST" finished-at="2022-11-29T15:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Web -->
+      </class> <!-- testNGSec19.day2 -->
+      <class name="testNGSec19.day3">
+        <test-method status="PASS" signature="Demo1(java.lang.String,java.lang.String)[pri:0, instance:testNGSec19.day3@307f6b8c]" name="Demo1" duration-ms="5" started-at="2022-11-29T15:05:38 IST" finished-at="2022-11-29T15:05:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:testNGSec19.day3@307f6b8c]" name="Demo2" duration-ms="4" started-at="2022-11-29T15:05:38 IST" finished-at="2022-11-29T15:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- testNGSec19.day3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

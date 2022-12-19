@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Loan(failed)">
+    <classes>
+      <class name="testNGSec19.day3">
+        <methods>
+          <include name="last"/>
+          <include name="Demo1"/>
+        </methods>
+      </class> <!-- testNGSec19.day3 -->
+      <class name="testNGSec19.day2">
+        <methods>
+          <include name="first"/>
+          <include name="Mobile"/>
+        </methods>
+      </class> <!-- testNGSec19.day2 -->
+    </classes>
+  </test> <!-- Loan(failed) -->
+</suite> <!-- Failed suite [Suite] -->
