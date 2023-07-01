@@ -30,9 +30,10 @@ public class Sec106miscellanousAndScreenshot107{
 		TakesScreenshot scrShot = ((TakesScreenshot) d);
 		File src = scrShot.getScreenshotAs(OutputType.FILE);
 		File dis=new File("scr.png");
-		//FileUtils.copyFile(src, new File("C:\\narendra\\scr.png"));
+		FileUtils.copyFile(src, new File("C:\\narendra\\scr.png"));
 		
 		FileHandler.copy(src, dis);
+		d.close();
 	}
 
 }

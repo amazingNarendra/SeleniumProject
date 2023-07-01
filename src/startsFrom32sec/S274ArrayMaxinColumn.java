@@ -19,9 +19,9 @@ public class S274ArrayMaxinColumn {
 				}
 			}
 		}
-		int k=0;
+//		int k=0;
 		int cmax=a[0][mincol];
-		for(k=0;k<3;k++)
+		for(int k=0;k<3;k++)
 		{
 			System.out.println(a[k][mincol]);
 			if(a[k][mincol]>cmax)

@@ -14,18 +14,21 @@ public class Sec56staticDropDownS57Autosuggestion{
 			d.get("https://rahulshettyacademy.com/dropdownsPractise/");	
 			
 			d.findElement(By.id("divpaxinfo")).click();
+			
 			Thread.sleep(5000);
+			System.out.println(d.findElement(By.id("divpaxOptions")).isEnabled());
 //			Select s=new Select(d.findElement(By.id("hrefIncAdt")));
 			for(int i=1;i<3;i++)
 			{
 			d.findElement(By.id("hrefIncAdt")).click();
+//			d.findElement(By.className(""))
 			d.findElement(By.id("hrefIncInf")).click();
 			}
 			d.findElement(By.id("btnclosepaxoption")).click();
 			System.out.println(d.findElement(By.id("divpaxinfo")).getText());
 			System.out.println(" 1st Success");
 			
-			AutoSuggest(d);
+//			AutoSuggest(d);
 			System.out.println(" 2nd Success");
 			d.close();
 			

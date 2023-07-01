@@ -3,7 +3,7 @@ package stratsFrom33Date;
 public class S284StaticKey {
 	String name;
 	static String city="pdtr";
-//	city="p";
+	//	city="p";
 	public S284StaticKey(String name)
 	{
 		this.name=name;
@@ -15,9 +15,9 @@ public class S284StaticKey {
 		S284StaticKey s=new S284StaticKey("narendra");
 		S284StaticKey s1=new S284StaticKey("marendra");
 		System.out.println(s.name+"  "+city);  //s.city
-		S284StaticKey.city="bangalore";
+		city="bangalore";
 	    
-	    System.out.println(s1.name+"  "+S284StaticKey.city);
+	    System.out.println(s1.name+"  "+city);
 
 	}
 

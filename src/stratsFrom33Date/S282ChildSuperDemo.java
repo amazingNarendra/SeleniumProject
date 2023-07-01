@@ -1,7 +1,7 @@
 package stratsFrom33Date;
 
 public class S282ChildSuperDemo extends S282ParentSuperDemo {
-	String name="Child";
+	String name="ChildGlobal";
 	public S282ChildSuperDemo()
 	{
 		super();
@@ -21,7 +21,6 @@ public class S282ChildSuperDemo extends S282ParentSuperDemo {
 		S282ChildSuperDemo c=new S282ChildSuperDemo();
 		c.getdata();
 		
-
 	}
 
 }

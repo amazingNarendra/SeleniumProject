@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGSec19.day2">
+      <class name="stratsFrom34Collections.S346AutoItUdemy$UploadFileRobot">
         <methods>
-          <include name="first"/>
-          <include name="Mobile"/>
+          <include name="uploadFile"/>
         </methods>
-      </class> <!-- testNGSec19.day2 -->
+      </class> <!-- stratsFrom34Collections.S346AutoItUdemy$UploadFileRobot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

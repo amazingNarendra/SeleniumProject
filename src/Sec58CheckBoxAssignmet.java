@@ -9,8 +9,12 @@ public class Sec58CheckBoxAssignmet {
 		WebDriver d = new ChromeDriver();
 		d.get("https://rahulshettyacademy.com/AutomationPractice/");
 		d.findElement(By.id("checkBoxOption1")).click();
+		System.out.println(d.findElement(By.id("checkBoxOption1")).isDisplayed());
+		System.out.println(d.findElement(By.id("checkBoxOption1")).isEnabled());
 		System.out.println(d.findElement(By.id("checkBoxOption1")).isSelected());
 		d.findElement(By.id("checkBoxOption1")).click();
+		System.out.println(d.findElement(By.id("checkBoxOption1")).isDisplayed());
+		System.out.println(d.findElement(By.id("checkBoxOption1")).isEnabled());
 		System.out.println(d.findElement(By.id("checkBoxOption1")).isSelected());
 		System.out.println(d.findElements(By.cssSelector("input[type='checkbox']")).size());
 		

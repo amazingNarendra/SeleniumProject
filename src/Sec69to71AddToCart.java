@@ -55,7 +55,7 @@ List<WebElement> p=d.findElements(By.cssSelector("h4.product-name"));
 			{
 				j++;
 				d.findElements(By.xpath("(//div[@class='product-action'])/button")).get(i).click();
-				if(j>itemsN.length)
+				if(j>itemsNList.size())
 					break;
 			}
 				

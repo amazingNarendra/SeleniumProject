@@ -6,5 +6,6 @@ public abstract  class S262ParentEmirates {
 		System.out.println("follow the engine guidelines");
 	}
 	public abstract void airCraftColor();
+	int a=10;
 
 }

@@ -21,13 +21,13 @@ public class Sec3javaSampleCode {
 		
 		System.out.println(s1+" "+s2 +" "+s3+" "+s4);
 		String[] ss = s1.split("bye");
-		System.out.printf(ss[0]+" "+ss[1]);	
+		System.out.println(ss[0]+" "+ss[1]);	
 		
 //		
 		List<String> a=new ArrayList<String>();
-//		a.add("a");
-//		a.add("b");
-//		System.out.println(a.get(1));
+		a.add("a");
+		a.add("b");
+		System.out.println(a.get(1));
 //		
 //	
 //		array

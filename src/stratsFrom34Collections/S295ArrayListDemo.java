@@ -28,7 +28,10 @@ public class S295ArrayListDemo {
 		hs.add(4);
 		System.out.println(hs);
 		System.out.println(hs.isEmpty()+"   "+hs.contains(2));
-		
+		for(int b:hs) {  //using for each
+			
+			System.out.println(b);
+	}
 	}
 	
 

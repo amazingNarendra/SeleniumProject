@@ -11,5 +11,4 @@ public class S282ParentSuperDemo {
 	{
 		System.out.println("parent method");
 	}
-
 }

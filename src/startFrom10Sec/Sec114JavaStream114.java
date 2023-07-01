@@ -22,6 +22,7 @@ public class Sec114JavaStream114 {
 		int c = (int) names.stream().filter(s -> s.startsWith("n")).count();
 		 System.out.println("starts with " +c);
 		names.stream().filter(s->s.length()>2).forEach(s->System.out.println(s));
+//		names.stream().filter(s->s.length()>2).collect(Collectors.)
 		//uppercase
 		Long c1=Stream.of("anand","mouni","eshan").filter(s->s.startsWith("n")).count();
 		System.out.println(c1);
@@ -52,8 +53,7 @@ public class Sec114JavaStream114 {
 		
 		il.stream().map(s->s.compareTo(2)).forEach(s->System.out.println(s));
 		
-		
-		
+				
 		
 
 	}

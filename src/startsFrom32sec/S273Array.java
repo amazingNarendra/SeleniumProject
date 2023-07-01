@@ -10,8 +10,8 @@ public class S273Array {
 		// TODO Auto-generated method stub
 		int a[][]= {{3,6},{5,2}};
 		int min = a[0][0];
-		for(int i=0;i<2;i++) {
-			for(int j=0;j<2;j++) {
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<a[i].length;j++) {
 				if(a[i][j]<min) {
 					min=a[i][j];
 				

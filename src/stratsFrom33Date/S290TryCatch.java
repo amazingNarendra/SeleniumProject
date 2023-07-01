@@ -13,11 +13,13 @@ public class S290TryCatch {
 		catch(ArithmeticException et)
 		{
 			System.out.println("inside arithmatic exception");
+			System.out.println(et);
 		}
 		catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("in catch block");
 			System.out.println(e);
+			System.exit(0);
 		}
 		finally
 		{

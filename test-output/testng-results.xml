@@ -1,51 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="9" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="183" started-at="2022-11-29T15:05:37 IST" finished-at="2022-11-29T15:05:38 IST">
+  <suite name="Default suite" duration-ms="13142" started-at="2023-06-02T18:53:17 IST" finished-at="2023-06-02T18:53:30 IST">
     <groups>
-      <group name="Smoke">
-        <method signature="day1.Demo1()[pri:0, instance:testNGSec19.day1@5faeada1]" name="Demo1" class="testNGSec19.day1"/>
-        <method signature="day2.Web()[pri:0, instance:testNGSec19.day2@7e2d773b]" name="Web" class="testNGSec19.day2"/>
-        <method signature="day3.Demo1(java.lang.String,java.lang.String)[pri:0, instance:testNGSec19.day3@307f6b8c]" name="Demo1" class="testNGSec19.day3"/>
-        <method signature="day3.Demo2()[pri:0, instance:testNGSec19.day3@307f6b8c]" name="Demo2" class="testNGSec19.day3"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="183" started-at="2022-11-29T15:05:37 IST" finished-at="2022-11-29T15:05:38 IST">
-      <class name="testNGSec19.day1">
-        <test-method status="PASS" signature="Demo1()[pri:0, instance:testNGSec19.day1@5faeada1]" name="Demo1" duration-ms="22" started-at="2022-11-29T15:05:38 IST" finished-at="2022-11-29T15:05:38 IST">
+    <test name="Default test" duration-ms="13142" started-at="2023-06-02T18:53:17 IST" finished-at="2023-06-02T18:53:30 IST">
+      <class name="stratsFrom34Collections.S346AutoItUdemy$UploadFileRobot">
+        <test-method status="FAIL" signature="uploadFile()[pri:0, instance:stratsFrom34Collections.S346AutoItUdemy$UploadFileRobot@1a8a8f7c]" name="uploadFile" duration-ms="12921" started-at="2023-06-02T18:53:17 IST" finished-at="2023-06-02T18:53:30 IST">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Cannot run program "C:\Users\nagae\Documents\fileupload.au3": CreateProcess error=193, %1 is not a valid Win32 application]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Cannot run program "C:\Users\nagae\Documents\fileupload.au3": CreateProcess error=193, %1 is not a valid Win32 application
+at java.lang.ProcessBuilder.start(Unknown Source)
+at java.lang.Runtime.exec(Unknown Source)
+at java.lang.Runtime.exec(Unknown Source)
+at java.lang.Runtime.exec(Unknown Source)
+at stratsFrom34Collections.S346AutoItUdemy$UploadFileRobot.uploadFile(S346AutoItUdemy.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.IOException: CreateProcess error=193, %1 is not a valid Win32 application
+at java.lang.ProcessImpl.create(Native Method)
+at java.lang.ProcessImpl.<init>(Unknown Source)
+at java.lang.ProcessImpl.start(Unknown Source)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo1 -->
-      </class> <!-- testNGSec19.day1 -->
-      <class name="testNGSec19.day2">
-        <test-method status="PASS" signature="Web()[pri:0, instance:testNGSec19.day2@7e2d773b]" name="Web" duration-ms="3" started-at="2022-11-29T15:05:38 IST" finished-at="2022-11-29T15:05:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Web -->
-      </class> <!-- testNGSec19.day2 -->
-      <class name="testNGSec19.day3">
-        <test-method status="PASS" signature="Demo1(java.lang.String,java.lang.String)[pri:0, instance:testNGSec19.day3@307f6b8c]" name="Demo1" duration-ms="5" started-at="2022-11-29T15:05:38 IST" finished-at="2022-11-29T15:05:38 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qaclickacademy.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo1 -->
-        <test-method status="PASS" signature="Demo2()[pri:0, instance:testNGSec19.day3@307f6b8c]" name="Demo2" duration-ms="4" started-at="2022-11-29T15:05:38 IST" finished-at="2022-11-29T15:05:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo2 -->
-      </class> <!-- testNGSec19.day3 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- uploadFile -->
+      </class> <!-- stratsFrom34Collections.S346AutoItUdemy$UploadFileRobot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

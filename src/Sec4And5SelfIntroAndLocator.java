@@ -1,5 +1,4 @@
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +11,7 @@ import org.testng.Assert;
 public class Sec4And5SelfIntroAndLocator {
 	static WebDriver d=null;
 
-	public static void main(String[] args) throws InterruptedException {
+public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nagae\\eclipse-workspace\\SeleniumJavaFramework\\Drivers\\chomeDriver\\chromedriver.exe");
 		d = new ChromeDriver();
@@ -27,10 +26,10 @@ public class Sec4And5SelfIntroAndLocator {
 //	
 	}
 	
-	 public static void locator() throws InterruptedException
+	 public static void locator() throws InterruptedException 
 	{						
 		String name="naru";
-		d.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	   d.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		  String p=passwordGet(); //password getting
 	   d.get("https://rahulshettyacademy.com/locatorspractice/");
 //	   d.findElement(By.id("inputUsername")).sendKeys("Narendra");
@@ -62,14 +61,14 @@ public class Sec4And5SelfIntroAndLocator {
 	   System.out.println("BYE");
 	   
 	  
-	  d.close();
+	   d.close();
 	}
 	
 	public static String passwordGet() throws InterruptedException {
 		d.get("https://rahulshettyacademy.com/locatorspractice/");
 		d.findElement(By.linkText("Forgot your password?")).click();
 		Thread.sleep(1000);
-		 d.findElement(By.cssSelector(".reset-pwd-btn")).click();
+		d.findElement(By.cssSelector(".reset-pwd-btn")).click();
 		String pwd=d.findElement(By.cssSelector(".infoMsg")).getText();
 		String[] pwd1=pwd.split("'");
 		String realPwd=pwd1[1].split("'")[0];

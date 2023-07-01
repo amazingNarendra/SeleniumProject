@@ -12,7 +12,7 @@ public class S299HashNext {
 		h.add("krish");
 		h.add("mahi");
 		h.add("mahi");
-		System.out.println(h);
+		System.out.println(h);  //[naren, mahi, krish]
 		
 		
 		
